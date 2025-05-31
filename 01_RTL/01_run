@@ -1,0 +1,3 @@
+vcs -full64 -R -f rtl_01.f +v2k -sverilog -v2005 -debug_access+all +notimingcheck +define+p0 | tee vcs_sim.log
+vcs -full64 -R -f rtl_01.f +v2k -sverilog -v2005 -debug_access+all +notimingcheck +define+p1 | tee vcs_sim.log
+vcs -full64 -R -f rtl_01.f +v2k -sverilog -v2005 -debug_access+all +notimingcheck +define+p2 | tee vcs_sim.log

@@ -1,0 +1,13 @@
+StudentID: r13943124
+Clock period: 2.3 (ns)
+Area: 7267.397958 (um^2)
+Is UPF used? No
+------------------------
+p0 time: 21575 (ns)
+p0 Power: 1.336 (mW)
+------------------------
+p1 time: 23275 (ns)
+p1 Power: 1.748 (mW)
+------------------------
+p2 time: 22025 (ns)
+p2 Power: 1.487 (mW)
