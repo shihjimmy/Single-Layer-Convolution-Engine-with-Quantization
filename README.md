@@ -1,2 +1,1 @@
-# Single_Layer_Convolution_Engine_with_Quantization_via_AXI_Protocol_And_Clock_Domain_Crossing
-A convolution engine for an MNIST classifier written in verilog
+
