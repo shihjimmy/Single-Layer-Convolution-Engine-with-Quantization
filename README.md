@@ -32,6 +32,4 @@ The accelerator communicates with external memory using the **AXI4 protocol**, a
 
 ---
 
-## Block Diagram
-
 
