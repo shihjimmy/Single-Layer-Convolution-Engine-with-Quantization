@@ -27,6 +27,9 @@ The accelerator communicates with external memory using the **AXI4 protocol**, a
 - **Quantization**  
   The convolution output is scaled using a 32-bit fixed-point scale factor (all fractional bits), rounded to INT8 format (0–255 range).
 
+- **Sparse Bitmap Decoding**  
+  The input is compressed using bitmap encoding that only stores non-skipped elements, improving memory efficiency.
+
 - **Sparse Bitmap Encoding**  
   The output is compressed using bitmap encoding that only stores non-skipped elements, improving memory efficiency.
 
