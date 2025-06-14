@@ -1,7 +1,7 @@
 
 # Single-Layer Convolution Engine with Quantization
-> The synthesized result is not uploaded, due to the confidentiality of TSMC's ADFP FINFET process.  
-> Only the testbench and RTL code are uploaded.
+> The synthesized result and power analysis files are not uploaded, due to the confidentiality of TSMC's ADFP FINFET process.  
+> Only the testbench, RTL code, and synthesis, power analysis scripts are uploaded.
 
 This project implements a **custom hardware accelerator** for a single-layer convolutional neural network (CNN), specifically designed for MNIST image classification, performing essential CNN operations—including **convolution**, **ReLU activation**, **2×2 max pooling**, and **quantization**—and applies **sparsity-aware bitmap encoding** to compress the final output for storage efficiency.   
 The accelerator communicates with external memory using the **AXI4 protocol**, and supports **multi-clock domain** operation with proper **Clock Domain Crossing (CDC)** techniques. 
