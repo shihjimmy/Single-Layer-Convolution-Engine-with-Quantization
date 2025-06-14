@@ -1,0 +1,3 @@
+vcs -full64 -R -f rtl_03.f +v2k -sverilog -v2005 -debug_access+all +maxdelays -negdelay +neg_tchk +define+SDF+p0 | tee vcs_sim.log
+vcs -full64 -R -f rtl_03.f +v2k -sverilog -v2005 -debug_access+all +maxdelays -negdelay +neg_tchk +define+SDF+p1 | tee vcs_sim.log
+vcs -full64 -R -f rtl_03.f +v2k -sverilog -v2005 -debug_access+all +maxdelays -negdelay +neg_tchk +define+SDF+p2 | tee vcs_sim.log

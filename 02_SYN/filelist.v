@@ -1,0 +1,11 @@
+`include "../01_RTL/top.v"
+`include "../01_RTL/fifo.v"
+`include "../01_RTL/calc.v"
+`include "../01_RTL/CDC_finish.v"
+`include "../01_RTL/CDC_fifo_read.v"
+`include "../01_RTL/CDC_fifo_write.v"
+
+`include "/share1/cad/synopsys/synthesis/cur/dw/sim_ver/DW_fifo_s2_sf.v"
+`include "/share1/cad/synopsys/synthesis/cur/dw/sim_ver/DW_fifoctl_s2_sf.v"
+`include "/share1/cad/synopsys/synthesis/cur/dw/sim_ver/DW_ram_r_w_s_dff.v"
+`include "/share1/cad/synopsys/synthesis/cur/dw/sim_ver/DWsc_sync.v"
