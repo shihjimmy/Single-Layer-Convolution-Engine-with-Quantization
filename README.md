@@ -7,6 +7,7 @@ This project implements a **custom hardware accelerator** for a single-layer con
 The accelerator communicates with external memory using the **AXI4 protocol**, and supports **multi-clock domain** operation with proper **Clock Domain Crossing (CDC)** techniques. 
 
 ![image](./doc/block.png)
+![image](./MNIST_block.png)
 
 ## Key Features
 
